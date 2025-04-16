@@ -2,9 +2,11 @@
 Blocks connections that are causing exceptions in initial connection state
 
 # Setup
+```
 sudo apt install iptables
 sudo apt install ipset
 sudo apt install fail2ban
+```
 
 `nano /etc/fail2ban/jail.conf`
 Append this at the bottom
