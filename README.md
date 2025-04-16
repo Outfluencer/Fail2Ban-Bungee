@@ -28,7 +28,7 @@ Add this to the file
 
 ```
 [Definition]
-failregex =\[\/<HOST>:\d+\] <-> InitialHandler -
+failregex =\/<HOST>:\d+\] <-> InitialHandler -
 ignoreregex =
 ```
 
