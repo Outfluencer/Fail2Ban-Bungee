@@ -29,7 +29,7 @@ Add this to the file
 ```
 [Definition]
 failregex =\/<HOST>:\d+\] <-> InitialHandler -
-ignoreregex =
+ignoreregex =executed command:
 ```
 
 `systemctl restart fail2ban`
